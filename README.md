@@ -49,24 +49,24 @@
  ## Week 5 Assignment
 
 > ```bash 
- docker exec ossp-container cat /etc/os-release
- ```
- ossp-container 컨테이너에서 /etc/os-release 파일의 내용을 cat을 통해 출력한다. 즉, ossp-container의 운영체제 정보를 출력한다.
- ```
-PRETTY_NAME="Ubuntu 24.04.1 LTS"
-NAME="Ubuntu"
-VERSION_ID="24.04"
-VERSION="24.04.1 LTS (Noble Numbat)"
-VERSION_CODENAME=noble
-ID=ubuntu
-ID LIKE=debian
-HOME_URL="https://www.ubuntu.com/'
-SUPPORT_URL="https://help.ubuntu.com/"
-BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
-PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy'
-UBUNTU_CODENAME=noble
-LOGO=ubuntu-logo
- ```
+>docker exec ossp-container cat /etc/os-release
+>```
+>ossp-container 컨테이너에서 /etc/os-release 파일의 내용을 cat을 통해 출력한다. 즉, ossp-container의 운영체제 정보를 출력한다.
+>```
+>PRETTY_NAME="Ubuntu 24.04.1 LTS"
+>NAME="Ubuntu"
+>VERSION_ID="24.04"
+>VERSION="24.04.1 LTS (Noble Numbat)"
+>VERSION_CODENAME=noble
+>ID=ubuntu
+>ID LIKE=debian
+>HOME_URL="https://www.ubuntu.com/'
+>SUPPORT_URL="https://help.ubuntu.com/"
+>BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+>PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy'
+>UBUNTU_CODENAME=noble
+>LOGO=ubuntu-logo
+> ```
 
  ```bash
  docker exec ossp-container git --version
