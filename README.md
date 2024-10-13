@@ -51,7 +51,7 @@
 > ```bash 
 >docker exec ossp-container cat /etc/os-release
 >```
->ossp-container 컨테이너에서 /etc/os-release 파일의 내용을 cat을 통해 출력한다. 즉, ossp-container의 운영체제 정보를 출력한다.
+컨테이너에서 /etc/os-release 파일의 내용을 cat을 통해 출력한다. 즉, ossp-container의 운영체제 정보를 출력한다.
 >```
 >PRETTY_NAME="Ubuntu 24.04.1 LTS"
 >NAME="Ubuntu"
@@ -68,26 +68,26 @@
 >LOGO=ubuntu-logo
 > ```
 
- ```bash
- docker exec ossp-container git --version
- ```
- ossp-container 컨테이너에 접속해서 설치된 git의 버전을 확인한다.
-```
-git version 2.43.0
-```
+> ```bash
+> docker exec ossp-container git --version
+> ```
+> 컨테이너에 접속해서 설치된 git의 버전을 확인한다.
+>```
+>git version 2.43.0
+>```
 
- ```bash
- docker exec ossp-container python3 -- version
- ```
- ossp-container 컨테이너에 접속해서 python3의 버전을 확인한다.
-```
-Python 3.12.3
-```
+> ```bash
+> docker exec ossp-container python3 -- version
+> ```
+> 컨테이너에 접속해서 python3의 버전을 확인한다.
+>```
+>Python 3.12.3
+>```
 
- ```bash
-docker inspect --format="{{ .HostConfig.Binds }}" ossp-container
- ```
- ossp-container 컨테이너의 .HostConfig.Binds 속성을 출력한다. 이는 호스트의 파일 경로와 컨테이너의 파일 경로간 바인드 마운트된 정보를 가지고 있어, 호스트와 컨테이너 간 연결된 경로를 출력한다.
-```
-[/Users/g7199/Desktop/ossp:/mnt/ossp]
-```
+> ```bash
+>docker inspect --format="{{ .HostConfig.Binds }}" ossp-container
+> ```
+> container 컨테이너의 .HostConfig.Binds를 출력한다. 이는 호스트의 파일 경로와 컨테이너의 파일 경로간 바인드 마운트된 정보를 가지고 있어, 호스트와 컨테이너 간 연결된 경로를 출력한다.
+>```
+>[/Users/g7199/Desktop/ossp:/mnt/ossp]
+>```
