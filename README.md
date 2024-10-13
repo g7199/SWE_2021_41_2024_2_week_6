@@ -48,7 +48,7 @@
  
  ## Week 5 Assignment
 
- ```bash 
+> ```bash 
  docker exec ossp-container cat /etc/os-release
  ```
  ossp-container 컨테이너에서 /etc/os-release 파일의 내용을 cat을 통해 출력한다. 즉, ossp-container의 운영체제 정보를 출력한다.
