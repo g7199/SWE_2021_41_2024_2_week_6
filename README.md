@@ -51,7 +51,7 @@
 > ```bash 
 >docker exec ossp-container cat /etc/os-release
 >```
-컨테이너에서 /etc/os-release 파일의 내용을 cat을 통해 출력한다. 즉, ossp-container의 운영체제 정보를 출력한다.
+>컨테이너에서 /etc/os-release 파일의 내용을 cat을 통해 출력한다. 즉, ossp-container의 운영체제 정보를 출력한다.
 >```
 >PRETTY_NAME="Ubuntu 24.04.1 LTS"
 >NAME="Ubuntu"
