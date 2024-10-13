@@ -32,7 +32,7 @@
   return False
   ```
 * Code Discription
-  1. **`seen_table`**  
+1. **`seen_table`**  
    - 역할: 이미 한 번 계산한 수를 저장하는 리스트.  
    - 목적: 무한 루프를 방지하기 위함. 만약 계산 과정에서 동일한 수가 두 번 나오면, 이는 순환을 의미하므로 해당 수는 'happy number'가 아님.
    
