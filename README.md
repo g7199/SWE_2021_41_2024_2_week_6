@@ -47,6 +47,7 @@
 4. `queue`를 통해 숫자를 하나씩 꺼내 계산하고, 각 자리 숫자의 제곱합을 `sum`에 저장하며, `seen_table`로 이전에 나온 숫자를 추적하여 순환 여부를 확인해 'happy number'를 판별함.
  
  ## Week 5 Assignment
+
  ```bash 
  docker exec ossp-container cat /etc/os-release
  ```
