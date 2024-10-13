@@ -66,7 +66,7 @@ PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-poli
 UBUNTU_CODENAME=noble
 LOGO=ubuntu-logo
  ```
-***
+
  ```bash
  docker exec ossp-container git --version
  ```
@@ -74,7 +74,7 @@ LOGO=ubuntu-logo
 ```
 git version 2.43.0
 ```
-***
+
  ```bash
  docker exec ossp-container python3 -- version
  ```
@@ -82,7 +82,7 @@ git version 2.43.0
 ```
 Python 3.12.3
 ```
-***
+
  ```bash
 docker inspect --format="{{ .HostConfig.Binds }}" ossp-container
  ```
